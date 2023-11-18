@@ -62,13 +62,6 @@ body {
 /*---header---*/
 /*---container-header---*/
 
-/*.header {*/
-/*  margin: 0 auto;*/
-/*  padding: 50px 0 0 0;*/
-/*  width: 1170px;*/
-/*  max-width: 100%;*/
-/*}*/
-
 .container-header {
   margin-bottom: 30px;
   font-size: 0;
@@ -216,3 +209,13 @@ body {
 }
 
 /*---end-navigation-header---*/
+/*---main---*/
+/*---main-specials---*/
+
+.main-second-header {
+  margin-left: 40px;
+
+  color: #333;
+  font-size: 40px;
+  font-weight: 400;
+}
