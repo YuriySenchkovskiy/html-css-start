@@ -20,5 +20,164 @@ img {
 }
 
 body {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: Muller, serif;
+  background: #F1F1F1;
 }
+
+/*---header---*/
+/*---container-header---*/
+
+.header {
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+  width: 1170px;
+  max-width: 100%;
+}
+
+.container-header {
+  margin-bottom: 30px;
+  font-size: 0;
+}
+
+/*---container-header-element---*/
+
+.container-header-element {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 54px;
+}
+
+.container-header-element:nth-child(1) {
+  width: 261px;
+}
+
+.container-header-element:nth-child(2) {
+  width: 185px;
+}
+
+.container-header-element:last-child {
+  width: 141px;
+  margin-left: 583px;
+}
+
+/*---logo---*/
+
+.logo-header {
+  display: inline-block;
+  width: 261px;
+  height: 100%;
+
+  border-radius: 15px;
+  background: #F0BF5F;
+}
+
+.lagoona-logo {
+  width: 138.887px;
+  height: 39.445px;
+  flex-shrink: 0;
+
+  margin: 7px 16.94px 7.56px 23.2px;
+}
+
+.lagoona-sun {
+  width: 82px;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+/*---phone---*/
+
+.header-phone {
+  display: inline-block;
+  margin: 15px 0 15px 40px;
+
+  color: #666;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*---login to the account---*/
+
+.header-account {
+  display: inline-block;
+  margin: 19px 0 0 0;
+  padding-left: 29px;
+
+  color: #C93;
+  font-size: 16px;
+  font-weight: 400;
+
+  background-image: url("../img/keyboard_tab.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+/*---end-container-header---*/
+/*---navigation header---*/
+
+.container-nav-header {
+  font-size: 0;
+  margin-bottom: 70px;
+
+  border-radius: 15px;
+  background: #FFF;
+}
+
+.navigation-header-element {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 70px;
+}
+
+.nav {
+  height: 100%;
+}
+
+.nav-list {
+  display: inline-block;
+  margin: 27px 0;
+  padding: 0;
+}
+
+.nav-list-element {
+  display: inline;
+  margin-right: 45px;
+
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-list-element:first-child {
+  margin-left: 45px;
+}
+
+.nav-list-element:last-child {
+  margin-right: 0;
+}
+
+.navigation-header-element:nth-child(2) {
+  margin-left: 114px;
+  margin-right: 40px;
+}
+
+.button {
+  border-radius: 10px;
+  border: 1px solid #C93;
+  margin: 0;
+  padding: 13px 20px;
+
+  color: #C93;
+  font-size: 16px;
+  font-weight: 400;
+
+  background: #FFFFFF;
+}
+
+.nav-button {
+  margin: 14px 0;
+}
+
+/*---end-navigation-header---*/
