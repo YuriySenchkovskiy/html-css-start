@@ -1,5 +1,36 @@
 /*main css reset rules*/
 
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Regular'),
+  url('../fonts/MullerRegular.woff2') format('woff2'),
+  url('../fonts/MullerRegular.woff') format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Medium'),
+  url('../fonts/MullerMedium.woff2') format('woff2'),
+  url('../fonts/MullerMedium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Bold'),
+  url('../fonts/MullerBold.woff2') format('woff2'),
+  url('../fonts/MullerBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -22,17 +53,21 @@ img {
 body {
   font-family: Muller, serif;
   background: #F1F1F1;
-}
-
-/*---header---*/
-/*---container-header---*/
-
-.header {
   margin: 0 auto;
   padding: 50px 0 0 0;
   width: 1170px;
   max-width: 100%;
 }
+
+/*---header---*/
+/*---container-header---*/
+
+/*.header {*/
+/*  margin: 0 auto;*/
+/*  padding: 50px 0 0 0;*/
+/*  width: 1170px;*/
+/*  max-width: 100%;*/
+/*}*/
 
 .container-header {
   margin-bottom: 30px;
@@ -53,12 +88,12 @@ body {
 }
 
 .container-header-element:nth-child(2) {
-  width: 185px;
+  width: 213px;
 }
 
 .container-header-element:last-child {
-  width: 141px;
-  margin-left: 583px;
+  width: 155px;
+  margin-left: 541px;
 }
 
 /*---logo---*/
@@ -159,7 +194,7 @@ body {
 }
 
 .navigation-header-element:nth-child(2) {
-  margin-left: 114px;
+  margin-left: 90px;
   margin-right: 40px;
 }
 
