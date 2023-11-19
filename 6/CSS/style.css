@@ -1,4 +1,4 @@
-/*main css reset rules*/
+/*main css reset rules - helpers*/
 
 @font-face {
   font-family: 'Muller';
@@ -19,7 +19,6 @@
   font-weight: 500;
   font-style: normal;
 }
-
 
 @font-face {
   font-family: 'Muller';
@@ -50,86 +49,64 @@ img {
   max-width: 100%;
 }
 
+p {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
 body {
-  font-family: Muller, serif;
-  background: #F1F1F1;
+  min-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 50px 0 0 0;
-  width: 1170px;
-  max-width: 100%;
+
+  font-family: Muller, serif;
+  line-height: 1;
+  background: #F1F1F1;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-offset {
+  padding-top: 70px;
 }
 
 /*---header---*/
 /*---container-header---*/
 
 .container-header {
-  margin-bottom: 30px;
-  font-size: 0;
+  justify-content: space-between;
 }
-
-/*---container-header-element---*/
-
-.container-header-element {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  height: 54px;
-}
-
-.container-header-element:nth-child(1) {
-  width: 261px;
-}
-
-.container-header-element:nth-child(2) {
-  width: 213px;
-}
-
-.container-header-element:last-child {
-  width: 155px;
-  margin-left: 541px;
-}
-
-/*---logo---*/
 
 .logo-header {
-  display: inline-block;
-  width: 261px;
-  height: 100%;
-
-  border-radius: 15px;
-  background: #F0BF5F;
+  margin-right: 40px;
 }
-
-.lagoona-logo {
-  width: 138.887px;
-  height: 39.445px;
-  flex-shrink: 0;
-
-  margin: 7px 16.94px 7.56px 23.2px;
-}
-
-.lagoona-sun {
-  width: 82px;
-  height: 100%;
-  flex-shrink: 0;
-}
-
-/*---phone---*/
-
-.header-phone {
-  display: inline-block;
-  margin: 15px 0 15px 40px;
-
-  color: #666;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-/*---login to the account---*/
 
 .header-account {
-  display: inline-block;
-  margin: 19px 0 0 0;
   padding-left: 29px;
 
   color: #C93;
@@ -145,37 +122,16 @@ body {
 /*---navigation header---*/
 
 .container-nav-header {
-  font-size: 0;
-  margin-bottom: 70px;
-
-  border-radius: 15px;
-  background: #FFF;
-}
-
-.navigation-header-element {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  height: 70px;
+  padding-top: 30px;
+  justify-content: space-between;
 }
 
 .nav {
-  height: 100%;
-}
-
-.nav-list {
-  display: inline-block;
-  margin: 27px 0;
-  padding: 0;
+  margin-right: 114px;
 }
 
 .nav-list-element {
-  display: inline;
   margin-right: 45px;
-
-  color: #666;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .nav-list-element:first-child {
@@ -186,36 +142,126 @@ body {
   margin-right: 0;
 }
 
-.navigation-header-element:nth-child(2) {
-  margin-left: 90px;
+.nav-button:first-child {
   margin-right: 40px;
 }
 
-.button {
-  border-radius: 10px;
-  border: 1px solid #C93;
-  margin: 0;
-  padding: 13px 20px;
-
-  color: #C93;
-  font-size: 16px;
-  font-weight: 400;
-
-  background: #FFFFFF;
-}
-
-.nav-button {
-  margin: 14px 0;
+.nav-button:last-child {
+  margin-right: 45px;
 }
 
 /*---end-navigation-header---*/
+/*---end-header---*/
 /*---main---*/
-/*---main-specials---*/
 
 .main-second-header {
-  margin-left: 40px;
+  margin: 0;
 
   color: #333;
   font-size: 40px;
   font-weight: 400;
+}
+
+/*---main-specials---*/
+
+.main-specials-container-content {
+  display: flex;
+  margin-top: 20px;
+}
+
+.specials-content-left {
+  margin-right: 24px;
+}
+
+.specials-article:nth-child(2) {
+  margin-top: 24px;
+}
+
+.specials-title {
+  margin-top: 15px;
+}
+
+.specials-link {
+  display: block;
+  margin-top: 47px;
+}
+
+.specials-article {
+  width: 573px;
+}
+
+/*---main-about-us---*/
+
+.about-us-description {
+  margin-top: 20px;
+}
+
+/*---main-services---*/
+
+.services-list {
+  margin-top: -4px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services-list-item {
+  width: 549px;
+  margin-right: 24px;
+}
+
+.services-list-item {
+  width: 573px;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+
+.services-list-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+/*---main-advantages---*/
+
+.advantages-list {
+  margin-top: -2px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.advantages-list-item {
+  width: 276px;
+  margin-right: 22px;
+  margin-top: 22px;
+}
+
+.advantages-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+/*---main-placement---*/
+
+.placement-list {
+  margin-top: -4px;
+  flex-wrap: wrap;
+}
+
+.placement-item {
+  width: 374px;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.placement-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.placement-third-header {
+  margin-top: 16px;
+}
+
+.article-description {
+  margin-top: 16px;
+}
+
+.article-button {
+  margin-top: 20px;
 }
