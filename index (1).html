@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<base target="_blank">
+</head>
+<body>
+	<canvas id="canvas" width="200" height="200">
+		<p>Ваш браузер не поддерживает рисование.</p>
+	</canvas>
+
+	<a href="https://yandex.ru/">Яндекс</a>
+
+	<details>
+		<summary>Кто убийца?</summary>
+		Убийца – дворецкий
+	</details>
+
+	<p>Какой-то текст, и <mark>выделенный</mark> в нем фрагмент</p>
+
+
+	<blockquote cite="https://skillbox.ru/media/code/kak_pravilno_verstat_html_tablitsy/">
+		<p>Тег &lt;tr&gt; образует контейнер для создания строки таблицы. Каждая ячейка в такой строке устанавливается с помощью
+				тега &lt;td&gt; (хотя первая может быть задана и тегом
+				&lt;th&gt;).</p>
+	</blockquote>
+
+	<script>
+		let canvas = document.querySelector('#canvas');
+		let ctx = canvas.getContext('2d');
+
+		ctx.rect(50, 50, 100, 75);
+		ctx.stroke();
+	</script>
+</body>
+</html>
