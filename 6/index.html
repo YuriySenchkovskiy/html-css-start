@@ -168,45 +168,53 @@
           </h2>
           <ul class="advantages-list list-reset flex">
             <li class="advantages-list-item flex">
-              <div class="advantages-list-item-content advantages-1">
+              <div class="advantages-list-item-content">
+                <div class="advantages-image advantages-1"></div>
                 <p class="advantages-text">Идейные соображения высшего порядка,
                   а&nbsp;также постоянный количественный рост</p>
               </div>
             </li>
             <li class="advantages-list-item flex">
-              <div class="advantages-list-item-content advantages-2">
+              <div class="advantages-list-item-content">
+                <div class="advantages-image advantages-2"></div>
                 <p class="advantages-text">Значимость этих проблем настолько очевидна, что вопрос остаётся открытым</p>
               </div>
             </li>
             <li class="advantages-list-item flex">
-              <div class="advantages-list-item-content advantages-3">
+              <div class="advantages-list-item-content">
+                <div class="advantages-image advantages-3"></div>
                 <p class="advantages-text">Таким образом реализация плановых заданий играет важную роль для понимания</p>
               </div>
             </li>
             <li class="advantages-list-item flex">
-              <div class="advantages-list-item-content advantages-4">
+              <div class="advantages-list-item-content">
+                <div class="advantages-image advantages-4"></div>
                 <p class="advantages-text">Повседневная практика показывает, что сложившаяся структура организации</p>
               </div>
             </li>
             <li class="advantages-list-item flex">
-              <div class="advantages-list-item-content advantages-5">
+              <div class="advantages-list-item-content">
+                <div class="advantages-image advantages-5"></div>
                 <p class="advantages-text">Равным образом рамки и&nbsp;место обучения кадров способствует подготовки
                   сотрудника</p>
               </div>
             </li>
             <li class="advantages-list-item flex">
-              <div class="advantages-list-item-content advantages-6">
+              <div class="advantages-list-item-content">
+                <div class="advantages-image advantages-6"></div>
                 <p class="advantages-text">Консультация с&nbsp;активом влечёт за&nbsp;собой процесс внедрения услуг
                   нашего сервиса</p>
               </div>
             </li>
             <li class="advantages-list-item flex">
-              <div class="advantages-list-item-content advantages-7">
+              <div class="advantages-list-item-content">
+                <div class="advantages-image advantages-7"></div>
                 <p class="advantages-text">Повседневная практика показывает, что дальнейшее развитие различных</p>
               </div>
             </li>
             <li class="advantages-list-item flex">
-              <div class="advantages-list-item-content advantages-8">
+              <div class="advantages-list-item-content">
+                <div class="advantages-image advantages-8"></div>
                 <p class="advantages-text">Значимость этого настолько очевидна, что консультация наших экспертов
                   помогает</p>
               </div>
@@ -223,7 +231,7 @@
           <ul class="placement-list list-reset flex">
             <li class="placement-item">
               <article class="placement-article">
-                <img src="./img/placement1.png" alt="Отель">
+                <img class="placement-img" src="./img/placement1.png" alt="Отель">
                 <div class="article-text">
                   <div class="article-top flex">
                     <div class="article-price">
@@ -247,7 +255,7 @@
             </li>
             <li class="placement-item">
               <article class="placement-article">
-                <img src="./img/placement2.png" alt="Отель">
+                <img class="placement-img" src="./img/placement2.png" alt="Отель">
                 <div class="article-text">
                   <div class="article-top flex">
                     <div class="article-price">
@@ -271,7 +279,7 @@
             </li>
             <li class="placement-item">
               <article class="placement-article">
-                <img src="./img/placement3.png" alt="Отель">
+                <img class="placement-img" src="./img/placement3.png" alt="Отель">
                 <div class="article-text">
                   <div class="article-top flex">
                     <div class="article-price">
@@ -295,7 +303,7 @@
             </li>
             <li class="placement-item">
               <article class="placement-article">
-                <img src="./img/placement4.png" alt="Отель">
+                <img class="placement-img" src="./img/placement4.png" alt="Отель">
                 <div class="article-text">
                   <div class="article-top flex">
                     <div class="article-price">
@@ -319,7 +327,7 @@
             </li>
             <li class="placement-item">
               <article class="placement-article">
-                <img src="./img/placement5.png" alt="Отель">
+                <img class="placement-img" src="./img/placement5.png" alt="Отель">
                 <div class="article-text">
                   <div class="article-top flex">
                     <div class="article-price">
@@ -343,7 +351,7 @@
             </li>
             <li class="placement-item">
               <article class="placement-article">
-                <img src="./img/placement6.png" alt="Отель">
+                <img class="placement-img" src="./img/placement6.png" alt="Отель">
                 <div class="article-text">
                   <div class="article-top flex">
                     <div class="article-price">
@@ -367,7 +375,7 @@
             </li>
             <li class="placement-item">
               <article class="placement-article">
-                <img src="./img/placement7.png" alt="Отель">
+                <img class="placement-img" src="./img/placement7.png" alt="Отель">
                 <div class="article-text">
                   <div class="article-top flex">
                     <div class="article-price">
@@ -391,7 +399,7 @@
             </li>
             <li class="placement-item">
               <article class="placement-article">
-                <img src="./img/placement8.png" alt="Отель">
+                <img class="placement-img" src="./img/placement8.png" alt="Отель">
                 <div class="article-text">
                   <div class="article-top flex">
                     <div class="article-price">
@@ -426,35 +434,37 @@
             Хочу тур
           </h2>
           <form class="order-tour-form-line flex" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-            <div class="order-tour-form flex">
-              <label class="label" for="depart">Город вылета</label>
-              <select class="input-element" id="depart" name="depart">
-                <option value="Санкт-Петербург">Санкт-Петербург</option>
-                <option value="Москва">Москва</option>
-                <option value="Екатеринбург">Екатеринбург</option>
-                <option value="Хабаровск">Хабаровск</option>
-              </select>
-            </div>
-            <div class="order-tour-form flex">
-              <label class="label" for="arrive">Страна</label>
-              <select class="input-element" id="arrive" name="arrive">
-                <option value="Австралия">Австралия</option>
-                <option value="Германия">Германия</option>
-                <option value="Испания">Испания</option>
-                <option value="Италия">Италия</option>
-              </select>
-            </div>
-            <div class="order-tour-form flex">
-              <label class="label" for="date-of-departure">Дата прибытия</label>
-              <input class="input-element" id="date-of-departure" type="date" value="2023-12-01">
-            </div>
-            <div class="order-tour-form flex">
-              <label class="label" for="duration">Ночей</label>
-              <input class="input-element input-underline" id="duration" type="number" minlength="0" maxlength="100" placeholder="Введите число">
-            </div>
-            <div class="order-tour-form flex">
-              <label class="label" for="person">Туристы</label>
-              <input class="input-element input-underline" id="person" type="number" required minlength="0" maxlength="100" placeholder="Введите число">
+            <div class="order-tour-conditions flex">
+              <div class="order-tour-form flex">
+                <label class="label" for="depart">Город вылета</label>
+                <select class="input-element" id="depart" name="depart">
+                  <option value="Санкт-Петербург">Санкт-Петербург</option>
+                  <option value="Москва">Москва</option>
+                  <option value="Екатеринбург">Екатеринбург</option>
+                  <option value="Хабаровск">Хабаровск</option>
+                </select>
+              </div>
+              <div class="order-tour-form flex">
+                <label class="label" for="arrive">Страна</label>
+                <select class="input-element" id="arrive" name="arrive">
+                  <option value="Австралия">Австралия</option>
+                  <option value="Германия">Германия</option>
+                  <option value="Испания">Испания</option>
+                  <option value="Италия">Италия</option>
+                </select>
+              </div>
+              <div class="order-tour-form flex">
+                <label class="label" for="date-of-departure">Дата прибытия</label>
+                <input class="input-element" id="date-of-departure" type="date" value="2023-12-01">
+              </div>
+              <div class="order-tour-form flex">
+                <label class="label" for="duration">Ночей</label>
+                <input class="input-element input-underline" id="duration" type="number" minlength="0" maxlength="100" placeholder="Введите число">
+              </div>
+              <div class="order-tour-form flex">
+                <label class="label" for="person">Туристы</label>
+                <input class="input-element input-underline" id="person" type="number" required minlength="0" maxlength="100" placeholder="Введите число">
+              </div>
             </div>
             <button class="button" type="submit">
               Найти
@@ -470,34 +480,36 @@
           </h2>
           <div class="contacts-view flex">
             <div class="contacts-right-block flex">
-              <div class="contacts-address flex">
-                <p class="contacts-title address">Адрес</p>
-                <p class="contacts-text flex">Москва, улица Юности, дом&nbsp;5&nbsp;строение&nbsp;4,&nbsp;офис&nbsp;2</p>
-              </div>
-              <div class="line"></div>
-              <div class="contacts-phones flex">
-                <p class="contacts-title phone">Телефоны</p>
-                <div class="phones flex">
-                  <a class="contacts-phone" href="tel:+74953225448">+7&nbsp;499&nbsp;535&shy;-64&shy;-34</a>
-                  <a class="contacts-phone" href="tel:+74953225448">+7&nbsp;495&nbsp;005&shy;-05&shy;-44</a>
+              <div class="contacts-values flex">
+                <div class="contacts-address flex">
+                  <p class="contacts-title address">Адрес</p>
+                  <p class="contacts-text flex">Москва, улица Юности, дом&nbsp;5&nbsp;строение&nbsp;4,&nbsp;офис&nbsp;2</p>
                 </div>
-              </div>
-              <div class="line"></div>
-              <div class="contacts-emails flex">
-                <p class="contacts-title email">Email</p>
-                <div class="emails flex">
-                  <a class="contacts-email" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
-                  <p class="contacts-grey">по вопросам бронирования</p>
-                  <a class="contacts-email" href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
-                  <p class="contacts-grey">по вопросам сотрудничества</p>
+                <div class="line"></div>
+                <div class="contacts-phones flex">
+                  <p class="contacts-title phone">Телефоны</p>
+                  <div class="phones flex">
+                    <a class="contacts-phone" href="tel:+74953225448">+7&nbsp;499&nbsp;535&shy;-64&shy;-34</a>
+                    <a class="contacts-phone" href="tel:+74953225448">+7&nbsp;495&nbsp;005&shy;-05&shy;-44</a>
+                  </div>
                 </div>
+                <div class="line"></div>
+                <div class="contacts-emails flex">
+                  <p class="contacts-title email">Email</p>
+                  <div class="emails flex">
+                    <a class="contacts-email" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
+                    <p class="contacts-grey">по вопросам бронирования</p>
+                    <a class="contacts-email" href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
+                    <p class="contacts-grey">по вопросам сотрудничества</p>
+                  </div>
+                </div>
+                <div class="line"></div>
+                <div class="contacts-schedule flex">
+                  <p class="contacts-title schedule">График</p>
+                  <p class="contacts-text">Понедельник-пятница, с&nbsp;10:00&nbsp;до&nbsp;19:00</p>
+                </div>
+                <div class="line"></div>
               </div>
-              <div class="line"></div>
-              <div class="contacts-schedule flex">
-                <p class="contacts-title schedule">График</p>
-                <p class="contacts-text">Понедельник-пятница, с&nbsp;10:00&nbsp;до&nbsp;19:00</p>
-              </div>
-              <div class="line"></div>
               <button class="contact-button" type="button">Построить маршрут</button>
             </div>
             <div class="contacts-left-block">

@@ -106,15 +106,13 @@ body {
 /*---container-header---*/
 
 .container-header {
-  height: 54px;
   margin-bottom: 30px;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 }
 
 .container-header-element {
   align-items: center;
-  margin-right: 540px;
 }
 
 .logo-header {
@@ -153,28 +151,20 @@ body {
 /*---navigation header---*/
 
 .container-nav-header {
-  min-width: 1170px;
-  min-height: 70px;
-  flex-shrink: 0;
-
   justify-content: space-between;
-  align-content: start;
   align-items: center;
+  padding: 14px 45px;
 
   border-radius: 15px;
   background: #FFF;
 }
 
 .nav-list {
-  justify-content: space-evenly;
-  width: 685px;
-  padding: 27px 0;
+  gap: 45px
 }
 
 .nav-header-buttons {
-  width: 423px;
-  align-items: center;
-  justify-content: space-evenly;
+  gap: 40px;
 }
 
 /*---end-navigation-header---*/
@@ -202,33 +192,35 @@ body {
 }
 
 .specials-article {
-  width: 550px;
-  height: 258px;
-  padding: 40px 0 40px 45px;
+  width: 573px;
+  padding: 40px 108px 40px 45px;
   border-radius: 15px;
-  flex-shrink: 0;
   background: linear-gradient(90deg,
   rgba(48, 64, 89, 0.84) -2.9%,
   rgba(53, 65, 83, 0.00) 65.7%);
 }
 
 .article-1 {
+  margin-bottom: 24px;
+
   background: lightgray url("../img/specials1.jpeg")
   no-repeat left center;
+  background-size: cover;
 }
 
 .article-2 {
   background: lightgray url("../img/specials2.jpeg")
   no-repeat left center;
+  background-size: cover;
 }
 
 .article-3 {
   width: 573px;
-  height: 100%;
   padding: 212px 0 40px 45px;
 
   background: lightgray url("../img/specials3.jpg")
   no-repeat left center;
+  background-size: cover;
 }
 
 .specials-third-header {
@@ -257,7 +249,6 @@ body {
 }
 
 .specials-link {
-  display: inline-block;
   padding-right: 20px;
 
   color: #F0BF5F;
@@ -295,7 +286,7 @@ body {
 
 .services-list-item {
   width: 573px;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 15px 15px;
   background: #FFF;
 }
 
@@ -335,7 +326,6 @@ body {
 }
 
 .services-link {
-  display: inline-block;
   padding-right: 20px;
 
   background-image: url("../img/specials-link.svg");
@@ -363,26 +353,26 @@ body {
 }
 
 .advantages-list-item {
-  max-width: 276px;
-  max-height: 276px;
+  width: 276px;
   padding: 40px 42px 32px 45px;
 
   border-radius: 15px;
   background: #FFF;
 }
 
-.advantages-list-item-content {
-  background-repeat: no-repeat;
-  background-position: top left;
-}
-
 .advantages-text {
-  padding-top: 76px;
-
   color: #000;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
+}
+
+.advantages-image {
+  height: 66px;
+  margin-bottom: 10px;
+
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .advantages-1 {
@@ -436,6 +426,10 @@ body {
 
   border-radius: 15px;
   background: #FFF;
+}
+
+.placement-img {
+  display: block;
 }
 
 .article-text {
@@ -494,7 +488,6 @@ body {
 }
 
 .placement-all-variations {
-  display: inline-block;
   padding-right: 20px;
 
   color: #FFF;
@@ -523,16 +516,16 @@ body {
 }
 
 .order-tour-form-line {
-  width: 1080px;
-  height: 100%;
-  flex-shrink: 0;
   padding: 32px 28px;
-
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-between;
 
   border-radius: 15px;
   background: #FFF;
+}
+
+.order-tour-conditions {
+  gap: 41px;
 }
 
 .order-tour-form {
@@ -568,7 +561,6 @@ body {
 
 .contacts-view {
   width: 100%;
-  height: 100%;
   padding: 45px;
   justify-content: space-between;
 
@@ -577,15 +569,19 @@ body {
 }
 
 .contacts-right-block {
-  width: 375px;
-
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.contacts-address {
+.contacts-values {
+  width: 375px;
+
+  flex-direction: column;
   justify-content: space-between;
+  gap: 25px;
+
+  margin-bottom: 45px;
 }
 
 .address {
@@ -602,10 +598,6 @@ body {
 
 .schedule {
   margin-right: 74px;
-}
-
-.contacts-phones {
-  justify-content: space-between;
 }
 
 .contacts-text {
@@ -665,13 +657,12 @@ body {
 
 .contacts-left-block {
   width: 653px;
-  height: 528px;
-  flex-shrink: 0;
 
   border-radius: 10px;
   background: url("../img/contacts.png"),
   lightgray -165px -63.707px / 150.536% 124.131%
   no-repeat;
+  background-size: cover;
 }
 
 .line {
