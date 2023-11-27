@@ -659,6 +659,8 @@ body {
   background-image: url("../img/white-pointer.svg");
   background-position: right center;
   background-repeat: no-repeat;
+
+  transition: color 0.2s ease-in-out, background-image 0.2s ease-in-out;
 }
 
 .placement-all-variations:focus {
@@ -667,8 +669,6 @@ body {
   background-image: url("../img/specials-link.svg");
   background-position: right center;
   background-repeat: no-repeat;
-
-  transition: color 0.2s ease-in-out, background-image 0.2s ease-in-out;
 }
 
 .placement-all-variations:hover {

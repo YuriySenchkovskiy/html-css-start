@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="icon" type="image/x-icon" href="./img/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.svg">
     <title>Лагуна - ваш выбор отеля</title>
-  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 
@@ -482,15 +481,15 @@
               </div>
               <div class="order-tour-form flex">
                 <label class="label" for="date-of-departure">Дата прибытия</label>
-                <input class="input-element" id="date-of-departure" type="date" value="2023-12-01">
+                <input class="input-element" id="date-of-departure" name="date-of-departure" type="date" value="2023-12-01">
               </div>
               <div class="order-tour-form flex">
                 <label class="label" for="duration">Ночей</label>
-                <input class="input-element input-underline" id="duration" type="number" minlength="0" maxlength="100" placeholder="Введите число">
+                <input class="input-element input-underline" id="duration" name="duration" type="number" minlength="0" maxlength="100" placeholder="Введите число">
               </div>
               <div class="order-tour-form flex">
                 <label class="label" for="person">Туристы</label>
-                <input class="input-element input-underline" id="person" type="number" required minlength="0" maxlength="100" placeholder="Введите число">
+                <input class="input-element input-underline" id="person" name="person" type="number" required minlength="0" maxlength="100" placeholder="Введите число">
               </div>
             </div>
             <button class="button" type="submit">
